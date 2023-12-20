@@ -1,0 +1,29 @@
+.cardContainer {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #dedede;
+    border-radius: 6px;
+    width: 25%;
+}
+
+.cardContainer img {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    /* max-height: 100px;
+    max-width: 100px; */
+    width: 100%;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 0.75rem;
+}
+.textContainer h2, p {
+    margin: 0 0 0.75rem;
+}
+
+.textContainer a {
+    margin: 0;
+}
